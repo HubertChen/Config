@@ -16,6 +16,10 @@ execute pathogen#infect()
 
 nnoremap ; :
 
+"Easier page up and down
+nmap <silent> <leader>j <C-f><CR>
+nmap <silent> <leader>k <C-b><CR>
+
 "Forcing myself to get use to home row keys
 map <up> <nop>
 map <right> <nop>
