@@ -3,7 +3,6 @@ set tabstop=4
 set shiftwidth=4
 set nowrap
 set autoindent
-set copyindent
 set number
 set showmatch
 set hlsearch
