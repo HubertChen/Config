@@ -78,3 +78,7 @@ export PATH="/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export ANDROID_HOME="/usr/local/android-sdk-linux"
+export ANDROID_PLATFORM_TOOLS="/usr/local/android-sdk-linux/platform-tools"
+export PATH="$PATH:$ANDROID_HOME:$ANDROID_PLATFORM_TOOLS"

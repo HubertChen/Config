@@ -1,6 +1,7 @@
 set t_Co=256
 set tabstop=4
 set shiftwidth=4
+set expandtab
 set nowrap
 set autoindent
 set number
@@ -14,6 +15,11 @@ colorscheme elflord
 execute pathogen#infect() 
 
 nnoremap ; :
+
+augroup vimrc_autocmds
+	autocmd BufEnter * highlight OverSoft ctermbg=blue ctermfg=white
+	autocmd BufEnter * match OverSoft /\%101v.*/
+augroup END
 
 "Easier page up and down
 nmap <silent> <leader>j <C-f><CR>
